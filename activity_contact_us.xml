@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.user.setting.ContactUsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/contact_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#031C32"
+        app:subtitleTextColor="@color/white"
+        app:title="Contact Us"
+        app:titleTextColor="@color/white" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Email Address:"
+        android:textColor="#031C32"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/contact_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/emailAddress"
+        android:textColor="#031C32"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_email"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Website:"
+        android:textColor="#031C32"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/contact_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/website"
+        android:layout_centerHorizontal="true"
+     android:layout_margin="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/websiteLink"
+        android:textColor="#031C32"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_website"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Contact Number:"
+        android:textColor="#031C32"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/contact_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/contactNumber"
+        android:textColor="#031C32"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Location:"
+        android:textColor="#031C32"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/contact_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/location"
+        android:textColor="#031C32"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="Version: v.0"
+        android:textColor="#031C32"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
